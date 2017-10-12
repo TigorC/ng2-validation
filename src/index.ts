@@ -26,6 +26,32 @@ import { rangeLength, RangeLengthValidator } from './range-length';
 import { url, UrlValidator } from './url';
 import { uuid, UUIDValidator } from './uuid';
 
+export { base64, Base64Validator } from './base64';
+export { creditCard, CreditCardValidator } from './credit-card';
+export { date, DateValidator } from './date';
+export { dateISO, DateISOValidator } from './date-ios';
+export { digits, DigitsValidator } from './digits';
+export { email, EmailValidator } from './email';
+export { equal, EqualValidator } from './equal';
+export { equalTo, EqualToValidator } from './equal-to';
+export { gt, GreaterThanValidator } from './greater-than';
+export { gte, GreaterThanEqualValidator } from './greater-than-equal';
+export { json, JSONValidator } from './json';
+export { lt, LessThanValidator } from './less-than';
+export { lte, LessThanEqualValidator } from './less-than-equal';
+export { max, MaxValidator } from './max';
+export { maxDate, MaxDateValidator } from './max-date';
+export { min, MinValidator } from './min';
+export { minDate, MinDateValidator } from './min-date';
+export { notEqual, NotEqualValidator } from './not-equal';
+export { notEqualTo, NotEqualToValidator } from './not-equal-to';
+export { number, NumberValidator } from './number';
+export { phone, PhoneValidator } from './phone';
+export { range, RangeValidator } from './range';
+export { rangeLength, RangeLengthValidator } from './range-length';
+export { url, UrlValidator } from './url';
+export { uuid, UUIDValidator } from './uuid';
+
 export const CustomValidators: any = {
   base64,
   creditCard,
